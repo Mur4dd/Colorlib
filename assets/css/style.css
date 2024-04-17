@@ -1,0 +1,422 @@
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+}
+
+.container{
+    margin: 0 200px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inContainer{
+    display: flex;
+}
+
+.inContainer a{
+    margin: 0 10px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    color: #563d7c;
+}
+
+.nav2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    color: #563d7c;
+}
+
+.nav2 ul{
+    display: flex;
+    justify-content: baseline;
+    padding: 2px;
+    list-style: none;
+}
+
+.media i{
+    color: #563d7c;
+    margin: 0 10px;
+}
+
+.slide{
+    height: 931px;
+    background-color: #563d7c;
+}
+
+.slide img{
+    width: 600px;
+    height: 150px;
+    margin: 200px 650px;
+}
+
+.slide p{
+    color: white;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 300;
+    margin: -100px 601px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.underSlide{
+    height: 1770px;
+    background-color: white;
+}
+
+.underSlide h2{
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    margin-top: 100px;
+}
+
+.lead{
+    width: 950px;
+    margin: 0 450px;
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.lead a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.themes{
+    margin: 80px 440px;
+}
+
+.themes div{
+    width: 324px;
+    height: 408px;
+}
+
+.themes img{
+    width: 294px;
+    height: 220px;
+}
+
+.themes h3{
+    width: 294px;
+    font-size: 24px;
+    color: #555;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.themes p{
+    width: 294px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+.row1{
+    display: flex;
+    width: 950px;
+}
+
+.row2{
+    display: flex;
+    width: 950px;
+}
+
+.row3{
+    display: flex;
+    width: 950px;
+}
+
+.row1 div{
+    margin: 0 15px;
+}
+
+.row2 div{
+    margin: 50px 15px;
+}
+
+.row3 div{
+    margin: 100px 15px;
+}
+
+.lead2{
+    width: 500px;
+    margin: 0 700px;
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 150px;
+}
+
+.lead2 a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.lists{
+    height: 700px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.lists2{
+    display: flex;
+    list-style: disc;
+    justify-content: space-around;
+}
+
+.lists h2{
+    width: 600px;
+    height: 150px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    margin: 0 651px;
+}
+
+.lead3{
+    width: 950px;
+    margin: 10px 476px;
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.lead3 a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.lists2 div{
+    width: 1300px;
+    height: 322px;
+    margin: 70px 150px;
+}
+
+.lists2 a{
+    width: 167px;
+    height: 20px;
+    line-height: 25px;
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+.featurette{
+     height: 700px;
+}
+
+.featurette h2{
+    width: 800px;
+    height: 150px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    margin: 0 570px;
+}
+
+.lead4{
+    width: 950px;
+    margin: 10px 480px;
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.inFeaturette{
+    display: flex;
+    margin: 100px 350px;
+}
+
+.inFeaturette div{
+    width: 390px;
+    height: 385px;
+    margin:  0 50px;
+}
+
+.inFeaturette i{
+    font-size: 130px;
+    width: 160px;
+    height: 150px;
+    color: #6f5499;
+    margin: 0 65px;
+}
+
+.inFeaturette h3{
+    width: 294px;
+    font-size: 24px;
+    color: #555;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+}
+
+.inFeaturette p{
+    width: 294px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+.inFeaturette a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.blog{
+    height: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.blog h2{
+    width: 600px;
+    height: 150px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    margin: 0 651px;
+}
+
+.lead5{
+    width: 950px;
+    margin: 10px 480px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.half{
+    width: 100px;
+    margin: 60px auto;
+    color: #555;
+}
+
+.blog1{
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+}
+
+.blog a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #337ab7;
+    line-height: 50px;
+}
+
+.blog i{
+    color: #555;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.blog1under{
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin: 25px;
+}
+
+.subscribe{
+    height: 465px;
+}
+
+.subscribe h2{
+    width: 800px;
+    height: 150px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    margin: 0 570px;
+}
+
+.lead6{
+    width: 850px;
+    margin: 10px 550px;
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.subscribeBtn{
+    margin-left: 600px
+}
+
+.email{
+    width: 570px;
+    height: 45px;
+    border: 1px solid #ccc;
+}
+
+.submit{
+    width: 180px;
+    height: 49px;
+    background-color: #6f5499;
+    color: white;
+    border: 1px solid #ccc;
+    margin-left: -5px;
+}
+
+footer{
+    height: 111px;
+    background-color: #563d7c;
+}
+
+.footerNav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footerNav a{
+    text-decoration: none;
+    color: #c1c1c1;
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
